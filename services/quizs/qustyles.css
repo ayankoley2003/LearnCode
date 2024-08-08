@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#quiz-container{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    overflow: auto;
+    height: 100vh;
+}
+h1 {
+    text-align: center;
+    color: #4CAF50;
+}
+.question {
+    margin-bottom: 20px;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.results-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.question {
+    margin-bottom: 20px;
+}
+.question p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+.correct-answer {
+    color: green;
+}
+.your-answer {
+    color: blue;
+}
+.wrong-answer {
+    color: red;
+}
+.score {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: auto;
+    height: 100vh;
+}
+h2 {
+    text-align: center;
+    color: #333;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+input[type="text"],
+textarea,
+input[type="file"],
+select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+
+
+.table-container {
+    width: 90%;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #DF2771;
+    color: white;
+}
+
+th, td {
+    padding: 16px;
+    text-align: left;
+}
+
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #e2e2e2;
+}
+.thumbnail {
+    width: 144px;
+    height: 85px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.edit-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #DF2771;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.edit-btn:hover {
+    background-color: #f70566;
+}
+
+.no-quizs {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+}
